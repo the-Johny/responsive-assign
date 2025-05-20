@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+
+
+}
+.nav{
+display: flex;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    background-image: url("/images/john.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    height:100vh;
+}
+nav > .lists{
+    display:flex;
+    gap:20px;
+
+}
+.secb{
+    display:flex;
+    flex-direction:column;
+}
+.secb > .sections{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:3rem;
+}
+.secb > .sections > .card{
+    background-color: rgb(238, 231, 231);
+    padding:10px 10px;
+    margin-top: -2rem;
+    
+
+}
+.middle > .top{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+}
+.secb > .sections > .card{
+    background-color: rgb(238, 231, 231);
+    padding: 10px 10px;
+    margin-top: 3rem;
+
+}
+
+footer > .footer{
+    display: flex;
+    flex-direction: column;
+}
+footer > .footer > .footer1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #cacaca; 
+    align-items: center;
+
+}
+footer > .footer > .footer1 > .left{
+    display: flex;
+    flex-direction: column;
+
+}
+footer > .footer > .footer1 > .right > button{
+    background-color: rgb(100, 100, 227);
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+footer > .footer > .footer2{
+    display:flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+
+}
+footer > .footer > .footer3{
+    display:flex;
+    
+}
+footer > .footer > .footer3 > .left{
+    display: flex;
+    flex-direction: column;
+
+
+}
+footer > .footer > .footer3 > .right{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
